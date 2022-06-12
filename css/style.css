@@ -313,3 +313,22 @@ body {
     border-left: 1px solid var(--portfolio-images-border);
     border-right: 1px solid var(--portfolio-images-border);
     }
+
+    .menu-icon-phone{
+        width: 10px;
+        height: 16px;
+        margin-right: 2px;
+        fill:#757575;
+    }
+    .menu-icon-mail {
+        width: 16px;
+        height: 12px;
+        margin-right: 2px;
+        fill:#757575;
+        }
+    .menu-icon-phone:hover{
+        fill:#2196F3;
+    }
+    .menu-icon-mail:hover {
+        fill: #2196F3;
+    }
