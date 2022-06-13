@@ -332,3 +332,34 @@ body {
     .menu-icon-mail:hover {
         fill: #2196F3;
     }
+    .footer-address-set{
+     display: flex;
+     align-items: center;
+    }
+    
+    .footer-icon-set{
+        display: flex;
+        flex-direction: column;
+        align-self:auto;
+        align-items: center;
+    }
+    .footer-icon{
+        width: 44px;
+        height: 44px;
+        fill:#3a3b42;
+        margin-right: 5px;
+    }
+    .footer-icon:hover{
+        fill:#2196F3;
+    
+    }
+    .footer-text{
+        font-family: roboto, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+
+    }
