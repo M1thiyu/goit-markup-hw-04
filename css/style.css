@@ -263,9 +263,6 @@ body {
     background-color: var(--our-team-color);
 }
 
-.our-job{
-   margin-top: -100px;
-}
 .our-job-set{
     display: flex;
     justify-content: space-between;
@@ -274,9 +271,11 @@ body {
 .our-team-images-background{
     background-color: var(--our-team-images-background);
     width: 270px;
-    height: 368px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
-
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .our-team-set{
     display: flex;
@@ -292,6 +291,12 @@ body {
     margin-bottom: -200px;
     padding-left: 0;
 }
+.portfolio-button-set:hover,
+.portfolio-button-set:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08), 
+     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .portfolio-button-set{
     margin-left: 10px;
 }
@@ -302,11 +307,16 @@ body {
     justify-content: space-between;
     padding-left: 0;
 }
+
 .portfolio-images-set{
     margin-left: -40px;
     margin-right: -40px;
 }
-
+.portfolio-images-border:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-images-border{
     background: #FFF;
     border-bottom: 1px solid var(--portfolio-images-border);
@@ -363,3 +373,57 @@ body {
 
 
     }
+    .our-clients-icon-set{
+        width: 106px;
+        height: 60px;
+        fill: #afb1b8;
+    }
+    .our-clients-icon-border{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+    }
+.our-clients-icon-set:hover,
+.our-clients-icon-set:focus{
+    fill:#2196F3;
+}
+.our-clients-icon-border:hover,
+.our-clients-icon-border:focus{
+    border: 1px solid #2196F3;
+}
+.our-clients-set{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.article-icon-set{
+    width: 70px;
+    height: 70px;
+}
+.article-icon-border{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.our-team-icon-set{
+display: flex;
+justify-content:space-between;
+margin: 20px 30px;
+padding-left: 0;
+}
+.our-team-icon{
+    width: 44px;
+    height: 44px;
+    fill: #AFB1B8;
+}
+.our-team-icon:hover{
+    fill: #2196F3;
+}
