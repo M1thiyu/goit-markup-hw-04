@@ -46,6 +46,15 @@ body {
     height: 600px;
 }
 
+.slider-background-gradient{
+background: linear-gradient(180deg,
+ rgba(0, 0, 0, 70%) 0%,
+ rgba(0, 0, 0, 60%) 50%,
+ rgba(0, 0, 0, 50%) 100%),
+  url('../images/slider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .slider-button {
     background-color: var(--slider-button-color);
     color: var(--slider-button-text-color);
@@ -306,6 +315,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 0;
+    margin-top: -100px;
 }
 
 .portfolio-images-set{
@@ -425,5 +435,14 @@ padding-left: 0;
     fill: #AFB1B8;
 }
 .our-team-icon:hover{
-    fill: #2196F3;
+    fill: #fff;
+}
+.our-team-icon-background{
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+}
+.our-team-icon-background:hover{
+    background: #2196F3;
 }
